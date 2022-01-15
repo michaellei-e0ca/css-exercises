@@ -4,25 +4,64 @@ body {
   min-height: 100vh;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0;
+}
+.middle-area {
+  display: flex; 
+}
+.card-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  padding-left: 10px;
+  flex-shrink: 0;
+  margin-right: 150px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  
+}
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
 }

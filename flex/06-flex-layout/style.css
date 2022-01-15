@@ -15,8 +15,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-body > * {
-}
+
 .header {
   display: flex;
   justify-content: space-between;
